@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Atlas Wealth",
+    "description": "A modern wealth management dashboard with real-time portfolio analytics and collaborative client workspaces.",
+    "tags": ["React", "Next.js", "Finance", "Data Viz"],
+    "category": "Finance",
+    "github": "https://github.com/",
+    "live": "https://example.com/"
+  },
+  {
+    "name": "Signal AI Copilot",
+    "description": "An AI research assistant that summarizes earnings calls and highlights material risk signals.",
+    "tags": ["AI", "SaaS", "NLP", "TypeScript"],
+    "category": "AI",
+    "github": "https://github.com/",
+    "live": "https://example.com/"
+  },
+  {
+    "name": "Northstar Payments",
+    "description": "A frictionless onboarding flow and admin console for a fintech payment processor.",
+    "tags": ["React", "Fintech", "Design Systems"],
+    "category": "Finance",
+    "github": "https://github.com/",
+    "live": "https://example.com/"
+  },
+  {
+    "name": "SaaS Growth Studio",
+    "description": "A conversion-optimized marketing site with CMS-ready content blocks and analytics.",
+    "tags": ["SaaS", "Marketing", "Next.js"],
+    "category": "SaaS",
+    "github": "https://github.com/",
+    "live": "https://example.com/"
+  },
+  {
+    "name": "FinSight Mobile",
+    "description": "A responsive financial wellness app experience with progressive disclosure and gamified savings.",
+    "tags": ["Mobile", "UX", "Finance"],
+    "category": "Finance",
+    "github": "https://github.com/",
+    "live": "https://example.com/"
+  },
+  {
+    "name": "Operator Console",
+    "description": "An internal ops dashboard for multi-tenant SaaS workflows and compliance tracking.",
+    "tags": ["B2B", "Dashboard", "SaaS"],
+    "category": "SaaS",
+    "github": "https://github.com/",
+    "live": "https://example.com/"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "category": "Frontend",
+    "items": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion"]
+  },
+  {
+    "category": "Backend",
+    "items": ["Node.js", "REST APIs", "GraphQL", "PostgreSQL", "Prisma"]
+  },
+  {
+    "category": "Tools",
+    "items": ["Figma", "Vercel", "GitHub Actions", "Storybook", "Jira"]
+  },
+  {
+    "category": "Finance / Domain",
+    "items": ["Wealth platforms", "Credit workflows", "KYC/AML", "Risk analytics"]
+  }
+]

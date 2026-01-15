@@ -1,0 +1,32 @@
+[
+  {
+    "role": "Senior Frontend Engineer",
+    "company": "Aurora Capital - Fintech Platform",
+    "duration": "2022 - Present",
+    "highlights": [
+      "Led a redesign of the investor dashboard, increasing weekly active usage by 28%.",
+      "Built reusable UI primitives that reduced feature delivery time by 35%.",
+      "Partnered with product and compliance to launch multi-entity onboarding."
+    ]
+  },
+  {
+    "role": "Frontend Engineer",
+    "company": "Nimbus Analytics - SaaS",
+    "duration": "2020 - 2022",
+    "highlights": [
+      "Shipped a multi-tenant admin console serving 120+ enterprise customers.",
+      "Optimized core flows to improve Lighthouse performance scores from 68 to 93.",
+      "Collaborated with design to refine a cross-platform design system."
+    ]
+  },
+  {
+    "role": "Product Engineer",
+    "company": "Vertex Studio - Digital Agency",
+    "duration": "2018 - 2020",
+    "highlights": [
+      "Delivered 10+ high-impact web experiences for finance and healthcare clients.",
+      "Integrated analytics dashboards with role-based access control.",
+      "Introduced component-driven development practices across the team."
+    ]
+  }
+]

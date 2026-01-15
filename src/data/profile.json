@@ -1,0 +1,17 @@
+{
+  "name": "Aarav Mehta",
+  "headline": "Building products at the intersection of technology and finance.",
+  "bio": "I am a product-focused frontend engineer who enjoys turning complex financial workflows into elegant, customer-first experiences. I have partnered with founders and design teams to launch high-impact platforms across wealth, credit, and data-driven SaaS.",
+  "location": "New York, NY",
+  "email": "hello@example.com",
+  "stats": [
+    { "label": "Years experience", "value": "6+" },
+    { "label": "Projects shipped", "value": "24" },
+    { "label": "Core stack", "value": "Next.js / TS / React" }
+  ],
+  "socials": [
+    { "label": "LinkedIn", "href": "https://www.linkedin.com/" },
+    { "label": "GitHub", "href": "https://github.com/" },
+    { "label": "X / Twitter", "href": "https://twitter.com/" }
+  ]
+}
