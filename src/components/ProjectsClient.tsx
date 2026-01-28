@@ -25,22 +25,6 @@ export default function ProjectsClient() {
 
   return (
     <div className="space-y-10">
-      <div className="flex flex-wrap gap-3">
-        {tags.map((tag) => (
-          <button
-            key={tag}
-            type="button"
-            onClick={() => setActiveFilter(tag)}
-            className={`rounded-full border px-4 py-2 text-xs font-medium transition ${
-              activeFilter === tag
-                ? "border-transparent bg-brand text-brand-foreground shadow-card"
-                : "border-border text-muted hover:text-foreground"
-            }`}
-          >
-            {tag}
-          </button>
-        ))}
-      </div>
       <div className="grid gap-6 md:grid-cols-2">
         {filtered.map((project, index) => (
           <Reveal key={project.name} delay={index * 0.04}>

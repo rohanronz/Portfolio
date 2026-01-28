@@ -1,32 +1,32 @@
 [
   {
-    "role": "Senior Frontend Engineer",
-    "company": "Aurora Capital - Fintech Platform",
-    "duration": "2022 - Present",
+    "role": "Software Engineer",
+    "company": "Excelsoft Technologies Ltd",
+    "duration": "2024 - present",
     "highlights": [
-      "Led a redesign of the investor dashboard, increasing weekly active usage by 28%.",
-      "Built reusable UI primitives that reduced feature delivery time by 35%.",
-      "Partnered with product and compliance to launch multi-entity onboarding."
+      "Led front-end architecture for large-scale, high-traffic web applications",
+      "Delivered performance-critical features used across multiple domains",
+      "Mentored junior engineers and established React and TypeScript best practices"
     ]
   },
   {
-    "role": "Frontend Engineer",
-    "company": "Nimbus Analytics - SaaS",
-    "duration": "2020 - 2022",
+    "role": "Associate Software Engineer",
+    "company": "Excelsoft Technologies Ltd",
+    "duration": "2022 - 2024",
     "highlights": [
-      "Shipped a multi-tenant admin console serving 120+ enterprise customers.",
-      "Optimized core flows to improve Lighthouse performance scores from 68 to 93.",
-      "Collaborated with design to refine a cross-platform design system."
+      "Built and shipped production-grade web applications from the ground up",
+      "Improved application performance and stability through targeted optimizations",
+      "Collaborated closely with testers to deliver clean, user-focused interfaces"
     ]
   },
   {
-    "role": "Product Engineer",
-    "company": "Vertex Studio - Digital Agency",
-    "duration": "2018 - 2020",
+    "role": "Intern",
+    "company": "Nexus Edutech Pvt Ltd",
+    "duration": "2022",
     "highlights": [
-      "Delivered 10+ high-impact web experiences for finance and healthcare clients.",
-      "Integrated analytics dashboards with role-based access control.",
-      "Introduced component-driven development practices across the team."
+      "Developed responsive web applications for enterprise environments",
+      "Worked with cross-functional teams to deliver features on schedule",
+      "Contributed to internal tooling and shared codebases"
     ]
   }
 ]

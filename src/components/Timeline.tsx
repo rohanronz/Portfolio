@@ -18,10 +18,10 @@ export default function Timeline({ items }: TimelineProps) {
                 {item.role}
               </h3>
               <p className="text-sm text-muted">{item.company}</p>
-              <ul className="mt-4 space-y-2 text-sm text-muted">
+              <ul className="mt-4 space-y-2 text-base text-muted">
                 {item.highlights.map((highlight) => (
-                  <li key={highlight} className="flex gap-2">
-                    <span className="mt-1 h-1.5 w-1.5 rounded-full bg-muted" />
+                  <li key={highlight} className="flex gap-3 items-start">
+                    <span className="mt-2 h-1.5 w-1.5 rounded-full bg-muted flex-shrink-0" />
                     <span>{highlight}</span>
                   </li>
                 ))}

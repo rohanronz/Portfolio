@@ -5,6 +5,7 @@ export type Project = {
   category: string;
   github: string;
   live: string;
+  image?: string;
 };
 
 export type ExperienceItem = {
@@ -22,7 +23,10 @@ export type SkillGroup = {
 export type Profile = {
   name: string;
   headline: string;
+  introduction: string;
   bio: string;
+  about1: string;
+  about2: string;
   location: string;
   email: string;
   stats: { label: string; value: string }[];

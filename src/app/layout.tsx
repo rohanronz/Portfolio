@@ -3,7 +3,6 @@ import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import PageTransition from "@/components/PageTransition";
 import Providers from "@/components/Providers";
 
 const inter = Inter({
@@ -47,14 +46,12 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${inter.variable} ${display.variable} antialiased bg-background text-foreground`}
+        className={`${inter.variable} ${display.variable} antialiased text-foreground`}
       >
         <Providers>
           <div className="flex min-h-screen flex-col">
             <Navbar />
-            <PageTransition>
-              <div className="flex-1">{children}</div>
-            </PageTransition>
+            <div className="flex-1">{children}</div>
             <Footer />
           </div>
         </Providers>

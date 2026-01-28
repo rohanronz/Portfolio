@@ -1,17 +1,20 @@
 {
-  "name": "Aarav Mehta",
-  "headline": "Building products at the intersection of technology and finance.",
-  "bio": "I am a product-focused frontend engineer who enjoys turning complex financial workflows into elegant, customer-first experiences. I have partnered with founders and design teams to launch high-impact platforms across wealth, credit, and data-driven SaaS.",
+  "name": "Rohan R",
+  "headline": "Building products at the intersection of technology and AI.",
+  "bio": "A product-minded engineer blending UX, systems thinking, and modern frontend craft. I Help Companies Build Reliable, Scalable Web Platforms | Performance Optimization • Frontend Architecture • Modernization",
+  "introduction": "Hi, I'm Rohan!",
+  "about1": "I build scalable, performance-critical products with a focus on front-end architecture, reliability, and system modernization. I enjoy owning features end-to-end and working closely with cross-functional teams to deliver high-quality experiences users love.",
+  "about2": "Taking ownership from requirements to production, ensuring speed, quality, and stability at scale.",
   "location": "New York, NY",
-  "email": "hello@example.com",
+  "email": "rohan.workdesk@gmail.com",
   "stats": [
-    { "label": "Years experience", "value": "6+" },
-    { "label": "Projects shipped", "value": "24" },
-    { "label": "Core stack", "value": "Next.js / TS / React" }
+    { "label": "Years experience", "value": "4" },
+    { "label": "Projects shipped", "value": "10+" },
+    { "label": "Core stack", "value": "React/Java-Spring" }
   ],
   "socials": [
-    { "label": "LinkedIn", "href": "https://www.linkedin.com/" },
-    { "label": "GitHub", "href": "https://github.com/" },
-    { "label": "X / Twitter", "href": "https://twitter.com/" }
+    { "label": "LinkedIn", "href": "https://www.linkedin.com/in/-rohan-r/" },
+    { "label": "GitHub", "href": "https://github.com/rohanronz" },
+    { "label": "X / Twitter", "href": "https://x.com/rohan_ronz/" }
   ]
 }

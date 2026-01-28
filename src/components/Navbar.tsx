@@ -1,50 +1,76 @@
 "use client";
 
-import Link from "next/link";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import ThemeToggle from "./ThemeToggle";
 import { profile } from "@/data/profile";
 
 const navItems = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
-  { href: "/projects", label: "Projects" },
-  { href: "/experience", label: "Experience" },
-  { href: "/contact", label: "Contact" },
+  { href: "#home", label: "Home" },
+  { href: "#about", label: "About" },
+  { href: "#experience", label: "Experience" },
+  { href: "#projects", label: "Projects" },
+  { href: "#contact", label: "Contact" },
 ];
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault();
+    const element = document.querySelector(href);
+    if (element) {
+      const headerOffset = 80;
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+    setOpen(false);
+  };
+
   return (
-    <header className="sticky top-0 z-40 border-b border-border/60 bg-background/80 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b border-border/60 bg-surface/90 backdrop-blur">
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-4">
-        <Link
-          href="/"
-          className="font-display text-lg font-semibold tracking-tight text-foreground"
+        <a
+          href="#home"
+          onClick={(e) => handleScroll(e, "#home")}
+          className="flex items-center gap-2 font-display text-lg font-semibold tracking-tight text-foreground"
         >
+          <Image
+            src="/profile-image.jpeg"
+            alt={profile.name}
+            width={40}
+            height={40}
+            className="rounded-full object-cover"
+          />
           {profile.name}
-        </Link>
+        </a>
         <nav className="hidden items-center gap-6 text-sm text-muted md:flex">
           {navItems.map((item) => (
-            <Link
+            <a
               key={item.href}
               href={item.href}
-              className="transition hover:text-foreground"
+              onClick={(e) => handleScroll(e, item.href)}
+              className="transition hover:text-foreground cursor-pointer"
             >
               {item.label}
-            </Link>
+            </a>
           ))}
         </nav>
         <div className="hidden items-center gap-3 md:flex">
           <ThemeToggle />
-          <Link
-            href="/contact"
-            className="rounded-full bg-brand px-4 py-2 text-sm font-medium text-brand-foreground shadow-card transition hover:-translate-y-0.5 hover:shadow-soft"
+          <a
+            href="#contact"
+            onClick={(e) => handleScroll(e, "#contact")}
+            className="rounded-full bg-brand px-4 py-2 text-sm font-medium text-brand-foreground shadow-card transition hover:-translate-y-0.5 hover:shadow-soft cursor-pointer"
           >
             Let's talk
-          </Link>
+          </a>
         </div>
         <div className="flex items-center gap-3 md:hidden">
           <ThemeToggle />
@@ -59,17 +85,17 @@ export default function Navbar() {
         </div>
       </div>
       {open && (
-        <div className="border-t border-border/60 bg-background/95 md:hidden">
+        <div className="border-t border-border/60 bg-surface/95 md:hidden">
           <div className="mx-auto flex max-w-6xl flex-col gap-3 px-6 py-4 text-sm text-muted">
             {navItems.map((item) => (
-              <Link
+              <a
                 key={item.href}
                 href={item.href}
-                onClick={() => setOpen(false)}
-                className="py-1 transition hover:text-foreground"
+                onClick={(e) => handleScroll(e, item.href)}
+                className="py-1 transition hover:text-foreground cursor-pointer"
               >
                 {item.label}
-              </Link>
+              </a>
             ))}
           </div>
         </div>

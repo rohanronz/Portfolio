@@ -31,3 +31,14 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans), system-ui, sans-serif;
 }
+
+.dark body {
+  background: radial-gradient(
+    ellipse 100% 100% at 50% 50%,
+    #192a43 0%,
+    #1e293b 35%,
+    #0f172a 60%,
+    #020617 85%,
+    #000000 100%
+  );
+}

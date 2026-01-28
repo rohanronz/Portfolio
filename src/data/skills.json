@@ -1,18 +1,18 @@
 [
   {
     "category": "Frontend",
-    "items": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion"]
+    "items": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Javascript", "Bootstrap"]
   },
   {
     "category": "Backend",
-    "items": ["Node.js", "REST APIs", "GraphQL", "PostgreSQL", "Prisma"]
+    "items": ["Node.js", "REST APIs", "PostgreSQL", "Java-Spring"]
   },
   {
     "category": "Tools",
-    "items": ["Figma", "Vercel", "GitHub Actions", "Storybook", "Jira"]
+    "items": ["Figma", "Vercel", "GitHub Actions", "Jira", "Postman"]
   },
   {
-    "category": "Finance / Domain",
-    "items": ["Wealth platforms", "Credit workflows", "KYC/AML", "Risk analytics"]
+    "category": "AI",
+    "items": ["Claude", "Gemini", "Cursor", "Google AI", "OpenAI", "Vercel AI SDK"]
   }
 ]
