@@ -17,14 +17,14 @@ const display = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: {
-    default: "Aarav Mehta | Product-Focused Frontend Engineer",
-    template: "%s | Aarav Mehta",
+    default: "Rohan R | Product-Focused Full Stack Developer",
+    template: "%s | Rohan R",
   },
   description:
     "Building premium, fast-loading digital products at the intersection of technology and finance.",
   metadataBase: new URL("https://example.com"),
   openGraph: {
-    title: "Aarav Mehta | Product-Focused Frontend Engineer",
+    title: "Rohan R | Product-Focused Full Stack Developer",
     description:
       "Modern portfolio showcasing projects, experience, and a product-driven approach to front-end engineering.",
     type: "website",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aarav Mehta | Product-Focused Frontend Engineer",
+    title: "Rohan R | Product-Focused Full Stack Developer",
     description:
       "Modern portfolio showcasing projects, experience, and a product-driven approach to front-end engineering.",
   },
